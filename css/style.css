@@ -1,3 +1,5 @@
+/* HOME PAGE */
+
 body {
     overflow-x: hidden; /*Removes horizontal scroll bar created on complete site*/
 }
@@ -67,3 +69,22 @@ body {
 #video-play a {
     color: #fff;
 }
+
+/* ABOUT PAGE */
+
+#page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed; /* Parralax Effect */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
